@@ -2,12 +2,34 @@
 <html>
   <head>
     My link in bio
+    <style>
+      body {
+        padding-top: 40px;
+        padding-bottom: 40px;
+      }
+    </style>
   </head>
 
   <body>
     <div class="banner">
-      <img src="/Photos/Booth Headshot.jpg" alt="Tina Cho headshot">
+      <img src="/Photos/Booth Headshot.jpg" alt="Tina Cho headshot" class="banner-image">
     </div>
+
+    <style>
+      .banner-image {
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 128px;
+      }
+
+      .thumbnail {
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        object-fit: cover;
+      }
+    </style>
     
     <div class="name">
       Tina Cho
@@ -23,14 +45,14 @@
     </div>
 
     <div class="link">
-      <img src="/Photos/Jack Gilbert.jpeg">
+      <img src="/Photos/Jack Gilbert.jpeg" class="thumbnail">
       <a href="https://www.poetryfoundation.org/poems/43407/michiko-dead" target="_blank">
       Michiko Dead
       </a>
     </div>
 
     <div class="link">
-      <img src="/Photos/George Saunders.jpeg">
+      <img src="/Photos/George Saunders.jpeg" class="thumbnail">
       <a href="https://www.tumblr.com/we--do--not--sow/19698698381/pastoralia-by-george-saunders" target="_blank">
         Pastoralia
       </a>
